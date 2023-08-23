@@ -3,10 +3,10 @@ package com.vinay.calendar.Models;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
 @Getter
 @Setter
-public class Notification {
+public class ParticipantInfo {
     private int id;
-    private Date triggerTime;
+    private User user;
+    private ParticipantType type;
 }

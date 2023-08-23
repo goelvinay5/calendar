@@ -4,14 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.TimeZone;
 @Getter
 @Setter
-public class Calendar {
+public abstract class Event {
     private int id;
     private String name;
-    private String description;
-    private TimeZone timeZone;
-    private List<Event> events;
-
+    private String Description;
+    private List<Notification> notifications;
+    private RecurrenceInfo recurrence;
 }

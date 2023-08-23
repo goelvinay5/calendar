@@ -10,8 +10,4 @@ public class User {
     private String name;
     private String email;
     private List<Calendar> calendar;
-
-    public void printUser(){
-        System.out.println("user...");
-    }
 }
